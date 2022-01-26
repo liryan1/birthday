@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("clouds.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Lato";
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -2rem;
+    font-weight: 300;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.time-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-num {
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0 2rem;
+    line-height: 1;
+}
+
+.cont {
+    text-align: center;
+}
+
+.time-label {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:700px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    .big-num {
+        font-size: 3rem;
+    }
+    
+}
