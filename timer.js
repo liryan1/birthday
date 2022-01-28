@@ -32,6 +32,5 @@ function countdown() {
     secondsElement.innerHTML = parse(seconds);
 
 }
-countdown();
-
+countdown()
 setInterval(countdown, 1000);
